@@ -60,7 +60,6 @@ Las herramientas dependen de los privilegios de tu cuenta:
 - `eliminar_del_carrito` — Eliminar productos del carrito
 - `mi_cuenta` — Informacion de tu cuenta
 - `mis_facturas` — Consultar facturas
-- `send_email` — Enviar correo
 
 **Con privilegio 'comprar':**
 - `add_to_cart` — Agregar productos al carrito
