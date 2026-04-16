@@ -1,0 +1,30 @@
+{
+  "name": "syscom-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP stdio server for Syscom — bridges stdio clients to Syscom's Streamable HTTP MCP endpoint",
+  "type": "module",
+  "bin": {
+    "syscom-mcp-server": "src/index.mjs"
+  },
+  "files": [
+    "src/index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "syscom",
+    "model-context-protocol",
+    "stdio",
+    "bridge"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syscom-tools/syscom-mcp-server.git"
+  },
+  "homepage": "https://github.com/syscom-tools/syscom-mcp-server",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
